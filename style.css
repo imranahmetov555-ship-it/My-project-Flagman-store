@@ -1,0 +1,366 @@
+body {
+    font-family: Arial, sans-serif;
+  background-image: url(https://img.freepik.com/free-photo/3d-rendering-abstract-black-white-background_23-2150914029.jpg?semt=ais_hybrid&w=740&q=80);
+}
+
+
+.content {
+  margin-left: 200px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  flex: 1;
+  
+}
+
+
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    margin-right: 30px;
+     background: rgb(255, 255, 255); 
+    padding: 30px;  
+    border-radius: 50px;  
+    box-shadow: 0 0 20px rgb(6, 13, 211);
+    margin-top: 30px;
+ 
+}
+.search-box {
+  width: 180px;
+  height: 30px;
+  box-shadow: 0 0 20px #000000;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  outline: none;
+  font-size: 14px;
+  transition: 0.5s;
+  margin-bottom: 15px;
+  margin-left: 8px;
+  border:3px solid gray;
+
+
+}
+
+.search-box:focus {
+ 
+  box-shadow: 0 0 20px #0fff27;
+}
+.search-box:hover{
+    transform: translateY(-7px);
+}
+
+    .instagram-icon {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.6s ease, box-shadow 0.6s ease;
+  border-radius: 100%;
+  
+  box-shadow:  0 12px 25px rgb(234, 12, 45);
+
+}
+
+
+
+
+.instagram-icon:hover {
+  transform: scale(1.5);
+  box-shadow: 0 0 10px #e1306c;
+  border-radius: 50%;
+ 
+ 
+}
+.facebook-icon {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.6s ease, box-shadow 0.6s ease;
+  border-radius: 100%;
+  
+  box-shadow:  0 12px 25px rgb(0, 0, 235);
+
+
+}
+.facebook-icon:hover {
+  transform: scale(1.5);
+  box-shadow: 0 0 10px #0818f7;
+  border-radius: 50%;
+ 
+}
+.whatsapp-icon {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.6s ease, box-shadow 0.6s ease;
+  border-radius: 100%;
+
+  box-shadow:  0 12px 25px rgb(17, 255, 0);
+ 
+}
+
+
+.whatsapp-icon:hover {
+  transform: scale(1.5);
+  box-shadow: 0 0 10px #25D366;
+  border-radius: 50%;
+}
+.tiktok-icon {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.6s ease, box-shadow 0.6s ease;
+  border-radius: 100%;
+
+  box-shadow: 0 12px 25px rgb(0, 0, 0);
+ 
+}
+
+
+.tiktok-icon:hover {
+  transform: scale(1.5);
+  box-shadow: 0 0 10px #000000;
+  border-radius: 50%;
+ 
+}
+.youtube-icon {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.6s ease, box-shadow 0.6s ease;
+  border-radius: 100%;
+
+  box-shadow: 0 12px 25px rgb(243, 0, 0);
+ 
+}
+
+
+.youtube-icon:hover {
+  transform: scale(1.5);
+  box-shadow: 0 0 10px #ff0000;
+  border-radius: 50%;
+}
+h1 {
+    margin-left: 150px;
+   padding: 7px;
+    height: 70px;
+    color: rgb(0, 0, 0);
+     font-size: 50px;
+      text-align: center;
+      font-size: 55px;
+       background: linear-gradient( #222, #222);
+       box-shadow: 0 12px 25px rgb(255, 255, 255);
+       letter-spacing: 20px;
+       animation: 2s ease-in-out infinite alternate;
+       margin-top: 10px;
+       font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+
+.sidebar {
+  width: 200px;
+  background-color: #333;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding-top: 50px;
+  box-shadow: 0 0 20px rgb(38, 0, 255);
+
+  }
+ 
+
+
+.sidebar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+  box-shadow: 0 0 20px rgb(38, 0, 255);
+    border-radius: 50px;
+    
+    
+}
+
+
+.sidebar a:hover {
+  background-color: rgb(88, 85, 85);
+   box-shadow: 0 0 10px rgb(255, 255, 255)
+}
+
+
+
+  @keyframes glow {
+  0%, 100% {
+    text-shadow: 0 0 1px #00ff15;
+  }
+  100% {
+    text-shadow: 0 0 15px #00fd2a;
+  }
+}
+@keyframes sideUp{
+    from{transform:translateY(150px);
+    opacity:0;}
+    to {transform:translateY(0); opacity: 1;}
+
+}
+@keyframes side{
+    from{transform:translateX(150px);
+    opacity:0;}
+    to {transform:translateX(0); opacity: 1;}
+
+}
+
+.rainbow-glow span {
+  animation: glow 0.4s infinite;}
+
+
+
+
+h2 {
+ text-shadow: 2px 2px 5px rgb(9, 5, 255);
+     text-align: center;
+     color: rgb(255, 255, 255)
+     
+}
+h4{
+    text-align: center;
+     text-align: center;
+     color:#000000;
+  margin-top: 65px;
+ 
+ 
+}
+
+
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    animation: sideUp 1s ease-out;
+}
+
+
+
+
+.item {
+    width: 250px;
+    background-color: #3a3939;
+    border: 1px solid blue;
+    border-radius: 60px;
+    padding: 10px;
+    text-align: center;
+transition: all 1s ease;
+box-shadow: 0 0 0 3px #ffffff, 0 12px 25px rgb(0, 0, 0);
+animation: sideUp 1s ease-out;
+}
+
+
+
+
+   
+.item:hover {
+  transform: translateY(-20px);  
+  box-shadow: 0 0 0 3px #1805e2, 0 12px 25px rgb(2, 62, 243);
+    
+}
+
+
+
+
+.item img {
+    width: 100%;
+    border-radius: 50px;
+    
+}
+
+
+
+.item h2 {
+    font-size: 10px;
+    margin: 10px 0 5px;
+    border-radius: 80px;
+    color: #ffffff;
+   
+}
+
+
+.item p {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+
+.item button {
+    background-color: #0008ff;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 8px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+
+.item button:hover {
+    background-color: #00ff6a;
+    transition: 0.7;
+}
+.icon{
+          margin-top: 450px;
+          
+           padding: 50px;
+        
+            
+          display: flex;
+           justify-content:space-around;
+    
+        }
+
+footer{
+     text-align: center;
+     color:#ffffff;
+      backdrop-filter: blur(45px);
+      background: rgba(54, 54, 56, 0.2); 
+      width: 1300px;
+      height: 700px;
+    border-radius: 40px;
+      margin-left: 200px;
+      border: 2px solid white;
+      margin-top: 0px;
+}
+.card-link{
+  width: 45%;
+  height: 10px;
+  position: absolute;
+  margin-top: -400px;
+  margin-left: 340px;
+  border-radius: 30px;
+  padding: 20px;
+  border: 2px solid blue;
+  transition: 1s;
+}
+.btn3{
+ width: 200px;
+ height: 20px;
+ background: none;
+ border: none;
+ position: absolute;
+ margin-top: -385px;
+ margin-left: 770px;
+
+}
+.card-link:hover{
+  width: 48%;
+  transition: 1s;
+}
+.container2{
+width: 1000px;
+height: 70px;
+
+border-radius: 40px;
+position: absolute;
+margin-left: 120px;
+margin-top: 70px;
+justify-content: space-around;
+display: flex;
+    background:none;
+    border:none
+}
